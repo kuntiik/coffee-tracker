@@ -1,0 +1,105 @@
+export const flavorColors: Record<string, string> = {
+  // Fruity flavors
+  Citrus: "bg-amber-100 text-amber-900 border-amber-200",
+  Floral: "bg-pink-100 text-pink-900 border-pink-200",
+  Berry: "bg-purple-100 text-purple-900 border-purple-200",
+  Fruity: "bg-orange-100 text-orange-900 border-orange-200",
+  Blackcurrant: "bg-purple-100 text-purple-900 border-purple-200",
+  Honey: "bg-amber-100 text-amber-900 border-amber-200",
+  Cherry: "bg-red-100 text-red-900 border-red-200",
+  Apple: "bg-green-100 text-green-900 border-green-200",
+  Blackberry: "bg-purple-100 text-purple-900 border-purple-200",
+  Blueberry: "bg-indigo-100 text-indigo-900 border-indigo-200",
+  Grapefruit: "bg-pink-100 text-pink-900 border-pink-200",
+  Lemon: "bg-yellow-100 text-yellow-900 border-yellow-200",
+  Lime: "bg-lime-100 text-lime-900 border-lime-200",
+  Mango: "bg-orange-100 text-orange-900 border-orange-200",
+  Orange: "bg-orange-100 text-orange-900 border-orange-200",
+  Peach: "bg-orange-100 text-orange-900 border-orange-200",
+  Pear: "bg-green-100 text-green-900 border-green-200",
+  Pineapple: "bg-yellow-100 text-yellow-900 border-yellow-200",
+  Raspberry: "bg-red-100 text-red-900 border-red-200",
+  Strawberry: "bg-red-100 text-red-900 border-red-200",
+  Strawberries: "bg-red-100 text-red-900 border-red-200",
+  Raspberries: "bg-red-100 text-red-900 border-red-200",
+  Blackberries: "bg-purple-100 text-purple-900 border-purple-200",
+  Tomato: "bg-red-100 text-red-900 border-red-200",
+  Tropical: "bg-teal-100 text-teal-900 border-teal-200",
+  Plums: "bg-purple-100 text-purple-900 border-purple-200",
+  Rum: "bg-amber-100 text-amber-900 border-amber-200",
+  Cocoa: "bg-amber-100 text-amber-900 border-amber-200",
+  Sweet: "bg-yellow-100 text-yellow-900 border-yellow-200",
+  Cherries: "bg-red-100 text-red-900 border-red-200",
+  Blueberries: "bg-indigo-100 text-indigo-900 border-indigo-200",
+  Marshmallow: "bg-pink-100 text-pink-900 border-pink-200",
+  Vanilla: "bg-yellow-100 text-yellow-900 border-yellow-200",
+  Unknown: "bg-gray-100 text-gray-900 border-gray-200",
+
+  // Nutty/Chocolate flavors
+  Chocolate: "bg-amber-100 text-amber-900 border-amber-200",
+  "Milk Chocolate": "bg-amber-100 text-amber-900 border-amber-200",
+  "Dark Chocolate": "bg-amber-100 text-amber-900 border-amber-200",
+  Nutty: "bg-amber-100 text-amber-900 border-amber-200",
+  Nuts: "bg-amber-100 text-amber-900 border-amber-200",
+  Caramel: "bg-amber-100 text-amber-900 border-amber-200",
+  Toffee: "bg-amber-100 text-amber-900 border-amber-200",
+  Almond: "bg-amber-100 text-amber-900 border-amber-200",
+  Hazelnut: "bg-amber-100 text-amber-900 border-amber-200",
+  Maple: "bg-amber-100 text-amber-900 border-amber-200",
+  Walnut: "bg-amber-100 text-amber-900 border-amber-200",
+  Molasses: "bg-amber-100 text-amber-900 border-amber-200",
+  Bitter: "bg-amber-100 text-amber-900 border-amber-200",
+
+  // Spicy/Earthy flavors
+  Spice: "bg-red-100 text-red-900 border-red-200",
+  Earthy: "bg-stone-100 text-stone-900 border-stone-200",
+  Herbal: "bg-emerald-100 text-emerald-900 border-emerald-200",
+  Cinnamon: "bg-red-100 text-red-900 border-red-200",
+  Coconut: "bg-stone-100 text-stone-900 border-stone-200",
+  Jasmine: "bg-pink-100 text-pink-900 border-pink-200",
+  Rose: "bg-pink-100 text-pink-900 border-pink-200",
+  Wine: "bg-purple-100 text-purple-900 border-purple-200",
+}
+
+// Processing method color mapping
+export const processingColors: Record<string, string> = {
+  Washed: "bg-blue-50 text-blue-800 border-blue-200",
+  Natural: "bg-red-50 text-red-800 border-red-200",
+  Honey: "bg-amber-50 text-amber-800 border-amber-200",
+  "Wet-Hulled": "bg-emerald-50 text-emerald-800 border-emerald-200",
+  Anaerobic: "bg-purple-50 text-purple-800 border-purple-200",
+  "Anaerobic process": "bg-purple-50 text-purple-800 border-purple-200",
+  "Carbonic maceration": "bg-purple-50 text-purple-800 border-purple-200",
+  "Carbonic maceration with CO2": "bg-purple-50 text-purple-800 border-purple-200",
+  "Natural, Anaerobic process": "bg-purple-50 text-purple-800 border-purple-200",
+  "Honey, Carbonic maceration": "bg-amber-50 text-amber-800 border-amber-200",
+  "Honey, Co-fermented": "bg-amber-50 text-amber-800 border-amber-200",
+  "Fully washed, sugarcane (EA) method": "bg-blue-50 text-blue-800 border-blue-200",
+  "Natural infused with cinnamon": "bg-red-50 text-red-800 border-red-200",
+  "Giling Basah": "bg-emerald-50 text-emerald-800 border-emerald-200",
+  "wet process": "bg-blue-50 text-blue-800 border-blue-200",
+  Roasted: "bg-gray-50 text-gray-800 border-gray-200",
+  Mixed: "bg-gray-50 text-gray-800 border-gray-200",
+  Unknown: "bg-gray-50 text-gray-800 border-gray-200",
+}
+
+// Roast level color mapping
+export const roastLevelColors: Record<string, string> = {
+  Light: "bg-yellow-50 text-yellow-800 border-yellow-200",
+  "Medium-Light": "bg-amber-50 text-amber-800 border-amber-200",
+  Medium: "bg-orange-50 text-orange-800 border-orange-200",
+  "Medium-Dark": "bg-red-50 text-red-800 border-red-200",
+  "medium dark": "bg-red-50 text-red-800 border-red-200",
+  Dark: "bg-stone-50 text-stone-800 border-stone-200",
+  dark: "bg-stone-50 text-stone-800 border-stone-200",
+  Unknown: "bg-gray-50 text-gray-800 border-gray-200",
+}
+
+// Suitable brewing method color mapping
+export const suitableForColors: Record<string, string> = {
+  Filter: "bg-sky-50 text-sky-800 border-sky-200",
+  Espresso: "bg-rose-50 text-rose-800 border-rose-200",
+  Omni: "bg-violet-50 text-violet-800 border-violet-200",
+  Omniroast: "bg-violet-50 text-violet-800 border-violet-200",
+}
+
